@@ -5,12 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "com.vanshgupta2003.mobile",
+    "scheme": "com.vanshgupta203.mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vanshgupta2003.mobile",
+      "bundleIdentifier": "com.vanshgupta203.mobile",
       "associatedDomains": ["applinks:deep-linking-tawny.vercel.app"]
     },
     "android": {
