@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vanshgupta2003.mobile"
+      "bundleIdentifier": "com.vanshgupta2003.mobile",
+      "associatedDomains": ["applinks:deep-linking-tawny.vercel.app"]
     },
     "android": {
       "adaptiveIcon": {
