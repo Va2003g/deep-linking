@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5R6N47F757.com.vanshgupta2003.mobile",
+        "paths": "*"
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["5R6N47F757.com.vanshgupta2003.mobile"]
+  },
+  "webcredentials": {
+    "apps": ["5R6N47F757.com.vanshgupta2003.mobile"]
+  }
+}
