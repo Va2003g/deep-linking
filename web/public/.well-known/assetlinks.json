@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.vanshgupta203.mobile",
+        "sha256_cert_fingerprints": ["FD:12:B7:99:7A:45:75:8F:6A:0F:78:DE:CF:1C:A2:45:A3:86:A1:BD:4E:74:91:E8:E1:A9:25:CF:76:C6:5A:FC"]
+      }
+    }
+]
+  
