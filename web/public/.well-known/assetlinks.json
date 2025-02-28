@@ -4,8 +4,8 @@
       "target": {
         "namespace": "android_app",
         "package_name": "com.vanshgupta203.mobile",
-        "sha256_cert_fingerprints": ["FD:12:B7:99:7A:45:75:8F:6A:0F:78:DE:CF:1C:A2:45:A3:86:A1:BD:4E:74:91:E8:E1:A9:25:CF:76:C6:5A:FC"]
+        "sha256_cert_fingerprints": ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C","FD:12:B7:99:7A:45:75:8F:6A:0F:78:DE:CF:1C:A2:45:A3:86:A1:BD:4E:74:91:E8:E1:A9:25:CF:76:C6:5A:FC"]
       }
     }
 ]
-  
+   

@@ -16,7 +16,15 @@ export default function RootLayout() {
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
   });
-  
+  const linking = {
+    prefixes: ['https://deep-linking-tawny.vercel.app/check-in'],
+    config: {
+      screens: {
+        'check-in': 'check-in',
+      },
+    },
+  };
+
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
@@ -27,9 +35,12 @@ export default function RootLayout() {
     return null;
   }
 
+  const deepLinking = Linking.useURL;
+  console.log(deepLinking);
+
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
+      <Stack linking={linking}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
