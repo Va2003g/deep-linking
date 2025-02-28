@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
-import * as Linking from 'expo-linking';
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -34,9 +33,6 @@ export default function RootLayout() {
   if (!loaded) {
     return null;
   }
-
-  const deepLinking = Linking.useURL;
-  console.log(deepLinking);
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
