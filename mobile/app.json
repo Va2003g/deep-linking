@@ -29,22 +29,7 @@
             {
               "scheme": "https",
               "host": "deep-linking-tawny.vercel.app",
-              "pathPrefix": "/check-in"
-            }
-          ],
-          "category": [
-            "BROWSABLE",
-            "DEFAULT"
-          ]
-        },
-        {
-          "action": "VIEW",
-          "autoVerify": true,
-          "data": [
-            {
-              "scheme": "https",
-              "host": "deep-linking-tawny.vercel.app",
-              "pathPrefix": "/check-in"
+              "pathPrefix": "/"
             }
           ],
           "category": [

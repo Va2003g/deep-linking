@@ -16,7 +16,7 @@ export default function RootLayout() {
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
   });
   const linking = {
-    prefixes: ['https://deep-linking-tawny.vercel.app/check-in'],
+    prefixes: ['https://deep-linking-tawny.vercel.app'],
     config: {
       screens: {
         'check-in': 'check-in',
@@ -36,7 +36,7 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack linking={linking}>
+      <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
