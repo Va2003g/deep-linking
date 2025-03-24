@@ -54,6 +54,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="[id]"
+        options={{
+          title: "Dynamic Route",
+          tabBarIcon: ({ color }: { color: string }) => (
+            <IconSymbol size={28} name="paperplane.fill" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
