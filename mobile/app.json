@@ -12,7 +12,8 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.vanshgupta203.mobile",
       "associatedDomains": [
-        "applinks:deep-linking-tawny.vercel.app"
+        "applinks:deep-linking-tawny.vercel.app",
+        "applinks:staging-fe.mytwocents.io"
       ],
       "appleTeamId": "SW5ARXUPJS"
     },
@@ -30,6 +31,21 @@
               "scheme": "https",
               "host": "deep-linking-tawny.vercel.app",
               "pathPrefix": "/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        },
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "staging-fe.mytwocents.io",
+              "pathPrefix": "/business"
             }
           ],
           "category": [
