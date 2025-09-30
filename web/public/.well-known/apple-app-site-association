@@ -4,7 +4,18 @@
     "details": [
       {
         "appID": "SW5ARXUPJS.com.vanshgupta203.mobile",
-        "paths": ["NOT /check-in","/explore"]
+        // "paths": ["NOT /check-in","/explore"]
+        "components": [
+          {
+            "/": "/explore",
+            "exclude": false
+          },
+          {
+            "/": "/check-in",
+            "exclude": true
+          }
+        ]
+
       }
     ]
   },
