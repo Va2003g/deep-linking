@@ -6,16 +6,8 @@
         "appID": "SW5ARXUPJS.com.vanshgupta203.mobile",
         "components": [
           {
-            "/": "/explore",
-            "exclude": false
-          },
-          {
             "/": "/check-in",
             "exclude": true
-          },
-          {
-            "/": "/[id]",
-            "exclude": false
           },
           {
             "/": "*"
