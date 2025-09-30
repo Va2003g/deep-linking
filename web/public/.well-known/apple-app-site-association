@@ -14,7 +14,8 @@
             "exclude": true
           },
           {
-            "/": "/[id]"
+            "/": "/[id]",
+            "exclude": false
           },
           {
             "/": "*"
